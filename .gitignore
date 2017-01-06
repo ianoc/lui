@@ -1,0 +1,14 @@
+*.orig
+*.orig
+*.pyc
+.*.swp
+.DS_Store
+.scripts-cache
+/.idea
+/lib
+/out
+/targets
+bazel-*
+TAGS
+data-common.iml
+/target

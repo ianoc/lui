@@ -1,0 +1,4 @@
+startup --output_base=/cache/bazel_0_3_1
+common --color yes
+test --spawn_strategy=standalone --genrule_strategy=standalone --test_output errors --strategy=Scalac=worker --worker_max_instances=8
+build --spawn_strategy=standalone --genrule_strategy=standalone --javacopt="-source 7 -target 7" --strategy=Scalac=worker --worker_max_instances=8
